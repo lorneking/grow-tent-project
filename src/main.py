@@ -6,6 +6,9 @@ import time
 from bme280 import BME280
 from smbus2 import SMBus
 
+bus = SMBus(1)
+bme280 = BME280(i2c_dev=bus)
+
 try:
     # Transitional fix for breaking change in LTR559
     from ltr559 import LTR559
@@ -18,8 +21,7 @@ logging.basicConfig(
     level=logging.INFO,
     datefmt="%Y-%m-%d %H:%M:%S")
 
-bus = SMBus(1)
-bme280 = BME280(i2c_dev=bus)
+
 
 # Get the temperature of the CPU for compensation
 def get_cpu_temperature():
@@ -51,3 +53,8 @@ while True:
 Proximity: {prox:05.02f}
 """)
     time.sleep(1.0)
+
+
+
+# End of program GPIO cleanup
+GPIO.cleanup()
