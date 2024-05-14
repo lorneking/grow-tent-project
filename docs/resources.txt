@@ -1,0 +1,42 @@
+PH0-14 pH sensor config, pinout, and example code for Arduino:
+https://forum.arduino.cc/t/help-with-ph-sensor-pin-abbreviations/323936/15
+
+PH0-14 example product page with useful configuration details:
+https://www.dev.faranux.com/product/liquid-ph0-14-value-detect-sensor-module-arduino/
+
+WhaddaMakers TDS-water-quality-sensor GitHub:
+https://github.com/WhaddaMakers/TDS-water-quality-sensor
+
+Whadda TDS WATER QUALITY SENSOR Product Page:
+https://whadda.com/product/tds-total-dissolved-solids-water-quality-sensor-wpm356/
+
+Zero2Go Omini Product Page:
+https://www.uugear.com/product/zero2go-omini-wide-input-range-multi-channel-power-supply-for-raspberry-pi/
+
+Zero2Go Omini Product Page (Adafruit):
+https://www.adafruit.com/product/4114
+
+Pimoroni Enviro+ Pinout:
+https://pinout.xyz/pinout/enviro_plus
+
+Pimoroni LTR559 GitHub:
+https://github.com/pimoroni/ltr559-python
+
+Pimoroni Grow HAT Mini Pinout:
+https://pinout.xyz/pinout/grow_hat_mini
+
+Pimoroni Grow HAT Mini Schematic:
+https://cdn.shopify.com/s/files/1/0174/1800/files/grow-mini_1.pdf?v=1600422759
+
+Raspberry Pi terminal commands for GPIO:
+https://raspberrypi.stackexchange.com/questions/36580/set-pullup-from-command-line
+
+i2cdetect on the Raspberry Pi:
+https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi
+
+ADS1115 Datasheet:
+https://cdn-shop.adafruit.com/datasheets/ads1115.pdf
+
+ADS1x15 @ Adafruit:
+https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115
+
