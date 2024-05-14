@@ -2,6 +2,7 @@
 
 import logging
 import time
+import relay8
 
 from bme280 import BME280
 from smbus2 import SMBus
