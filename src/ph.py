@@ -23,7 +23,6 @@ def log_model(x, a, b):
     return a * np.log(x) + b
 
 def phRead():
-
     params, covariance = curve_fit(log_model, rawValues, pHValues)
     a, b = params
     phRawVal = ADS.readADS1115(1)
