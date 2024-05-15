@@ -12,7 +12,7 @@ C = -8.99e-07
 THERMISTOR_CHANNEL = 3 # ADS1115 channel of thermistor (0-3)
 CORRECTION_FACTOR_C = -2.73 # Temperature correction factor is degrees C
 RSERIES = 9986   # Resistor value in the voltage divider
-VSUPPLY = 3.17     # Supply voltage
+VSUPPLY = 3.289     # Supply voltage
 
 def readThermistor():
     
